@@ -14,4 +14,4 @@ if letter in 'a, e, i, o , u':
 else:
     print(f'The letter {letter} is a consonant')
 # Hints:  Use the in operator to check if a character is in another string
-#         For example, if some_char in 'abc':
+#         For example, if some_char in 'abc':cd .
