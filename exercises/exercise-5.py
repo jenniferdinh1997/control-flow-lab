@@ -12,3 +12,16 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+for term in range(0,51):
+    if term == 0:
+        n1 = 0
+        print(f'term: {term} / number: {n1}')
+    elif term == 1:
+        n2 = 1
+        print(f'term: {term} / number: {n2}')
+    else:
+        for x in range(1):
+            number = n1 + n2
+            n1 = n2
+            n2 = number
+            print(f'term: {term} / number: {number}')
