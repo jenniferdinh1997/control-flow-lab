@@ -20,8 +20,7 @@ for term in range(0,51):
         n2 = 1
         print(f'term: {term} / number: {n2}')
     else:
-        for x in range(1):
-            number = n1 + n2
-            n1 = n2
-            n2 = number
-            print(f'term: {term} / number: {number}')
+        number = n1 + n2
+        n1 = n2
+        n2 = number
+        print(f'term: {term} / number: {number}')
