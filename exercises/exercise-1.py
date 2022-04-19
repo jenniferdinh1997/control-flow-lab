@@ -9,7 +9,7 @@ letter = input('Please enter a letter from the alphabet (a-z or A-Z): ').lower()
 # 3. Print one of following messages (substituting the letter for x):
 #      - The letter x is a vowel
 #      - The letter x is a consonant
-if letter in 'a, e, i, o , u':
+if letter in 'a, e, i, o, u':
     print(f'The letter {letter} is a vowel')
 else:
     print(f'The letter {letter} is a consonant')
